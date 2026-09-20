@@ -1,0 +1,7 @@
+# Python
+/__pycache__
+/tests/__pycache__
+/.pytest_cache
+/reporte
+/index.html
+

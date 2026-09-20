@@ -1,9 +1,10 @@
 from productos import (
    agregar_producto,
-   mostrar_producto,    
-   buscar_producto_por_precio,
+   mostrar_producto,
+   buscar_por_precio,
+   buscar_producto,
    eliminar_producto,
-   salir
+   mostrar_estadisticas
 )
 from menu import mostrar_menu
 
@@ -21,11 +22,13 @@ def index():
          case "2":
             mostrar_producto()
          case "3":
-            buscar_producto_por_precio()
+            buscar_por_precio()
          case "4":
             eliminar_producto()
          case "5":
-            salir()
+            mostrar_estadisticas()
+         case "7":
+            
        
 if __name__ == "__main__":
    index()
